@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wallet
+    driverClassName: org.postgresql.Driver
+    username: wallet
+    password: wallet
+
+
+  liquibase:
+    change-log: classpath:db/main-changelog.xml
